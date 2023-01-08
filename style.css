@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.heropage{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image:url(img/banner/banner3.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.titlecontent{
+    position: relative;
+    top:30vh;
+    right:25vh;
+    text-align: right;
+}
+.titlecontent h1{
+   font-weight: 700;
+   font-size:50px;
+   color:#fff;
+}
+.titlecontent p{
+    font-size:15px;
+    font-weight:400;
+    color:#eeeeee;
+    padding-top:24px;
+    line-height:26px;
+}
+.titlecontent button{
+    margin-top:20px;
+    padding:12px 25px;
+    background-color:#fff;
+    font-size:16px;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(255, 255, 255);
+    border-radius:4px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.titlecontent button:hover{
+    border:2px solid #000;
+    color:#000;
+    background-color:transparent;
+}
+.aboutpage{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-color:#fff;
+}
+.aboutcontent{
+    position: relative;
+    top:60px;
+    margin:0 200px;
+    display:flex;
+}
+.imgContent{
+    position: relative;
+}
+.imgContent img{
+    width:85%;
+}
+.aboutcontent .detiles{
+    position: relative;
+    top:25vh;
+}
+.detiles h2{
+    font-size:40px;
+    font-weight:700;
+    color: #151414;
+}
+.detiles p{
+    padding-top:24px;
+    width:416px;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    color: #444343;
+}
+.detiles .list ul{
+    position: relative;
+    top:16px;
+}
+.detiles .list ul li{
+    list-style:none;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    color: #444343;
+}
+.detiles .list ul li i{
+    color:#16D887;
+}
+.plan-page{
+    position: relative;
+    width:100%;
+    height:125vh;
+    background-color:#fff;
+}
+.head-title{
+    position: relative;
+    text-align:center;
+    padding-top:100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plan-content{
+    position: relative;
+    top:100px;
+    margin:0 220px;
+    display:flex;
+}
+.plan-box{
+    text-align:center;
+    margin:0 25px;
+}
+.plan-box h2{
+    font-size:25px;
+    font-weight:700;
+    line-height:35px;
+    color: #151414;
+    padding-top:12px;
+}
+.plan-box p{
+    padding-top:4px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+.banner{
+    position: relative;
+    width:840px;
+    height:250px;
+    left:38vh;
+    top:30vh;
+    background-image:url(img/watch.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius:8px;
+}
+.gradient{
+    position: relative;
+    width:840px;
+    height:250px;
+}
+.gradient img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+}
+.bannerInfo{
+    position: absolute;
+    top:0vh;
+    left:0vh;
+    padding:60px;
+}
+.bannerInfo h2{
+    font-weight:700;
+    font-size:30px;
+    line-height:35px;
+    color:#FFFFFF;
+}
+.bannerInfo button{
+    margin-top:20px;
+    padding:12px 25px;
+    background-color:#fff;
+    font-size:16px;
+    font-weight:500;
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(255, 255, 255);
+    border-radius:4px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.bannerInfo button:hover{
+    border:2px solid #000;
+    color:#000;
+    background-color:transparent;
+}
+.contact-page{
+    position: relative;
+    width:100%;
+    height:80vh;
+    background-color:#fff;
+}
+.contact-info{
+    position: relative;
+    padding:60px 100px;
+    display:flex;
+}
+.contact-img{
+    position: relative;
+    left:30vh;
+}
+.contact-img img{
+    width:50%;
+}
+.form-page{
+    position: absolute;
+    width:480px;
+    height:450px;
+    background-color:#fff;
+    right:35vh;
+    border-radius:12px;
+}
+.form-page form{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    padding:40px 40px;
+}
+.form-page form input{
+    position: relative;
+    width:390px;
+    height:60px;
+    background-color:#fff;
+    border:1px solid #aaaaab;
+    margin:8px 0;
+    outline:none;
+    border-radius:5px;
+    font-size:16px;
+    padding:0 16px;
+}
+.form-page form .messageBox{
+    height:140px;
+}
+.form-page form .messageBox::placeholder{
+    position: relative;
+    top:-45px;
+}
+.form-page form .submite{
+    position: absolute;
+    right:7vh;
+    bottom:-3vh;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:#fff;
+    padding:14px 30px;
+    background-color: #5b34f1;
+    border-radius:8px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.form-page form .submite:hover{
+    background-color: #3c1fb0;
+}
+footer{
+    position: relative;
+    width:100%;
+    height:80vh;
+    background-color:#000;
+}
+.footer-content{
+    position: relative;
+    top:20vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:40px 120px;
+}
+.footer-info{
+    position: relative;
+}
+.footer-info h1{
+    color:#fff;
+    font-weight:700;
+    line-height:53px;
+}
+.footer-info .footer-detials{
+    width: 485px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top:16px;
+}
+.footer-info .address{
+    font-weight:400;
+    font-size:16px;
+    line-height:26px;
+    color:#FFFFFF;
+    padding-top:12px;
+}
+.footer-info .icon{
+    position: relative;
+    top:16px;
+    left:-4px;
+    cursor: pointer;
+}
+.footer-info .icon img{
+    width:40px;
+    margin:0 4px;
+}
+.subscribe{
+    position:relative;
+    top:-10vh;
+}
+.subscribe h2{
+    color:#fff;
+    font-weight:700;
+    line-height:53px;
+}
+.subscribe input{
+    position: relative;
+    width:200px;
+    height:40px;
+    background-color:transparent;
+    border:1px solid #fff;
+    border-radius:8px;
+    padding:0 12px;
+    color:#fff;
+    outline:none;
+}
+.subscribe button{
+    position: relative;
+    top:9vh;
+    left:-31vh;
+    padding:8px 20px;
+    background-color:#005FAC;
+    font-size:16px;
+    font-weight:500;
+    color: rgb(255, 255, 255);
+    border:2px solid #005FAC;
+    border-radius:4px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.subscribe button:hover{
+    border:2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background-color:transparent;
+}
